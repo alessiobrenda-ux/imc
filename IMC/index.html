@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradutor Mágico - Traduza com Voz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-principal">
+        <h1 class="titulo-principal">✨ Tradutor Mágico ✨</h1>
+        
+        <div class="caixaApp">
+            <textarea class="texto" placeholder="Digite ou fale aqui..."></textarea>
+            
+            <div class="caixa-interna">
+                <select class="idioma">
+                    <option value="Alemão">🇩🇪 Alemão</option>
+                    <option value="ingles">🇬🇧 Inglês</option>
+                    <option value="Japonês">🇯🇵 Japonês</option>
+                </select>
+                <button class="btn-traduzir">🔍 Traduzir</button>
+                <button class="btn-microfone">🎤 Microfone</button>
+                <button class="btn-limpar">🗑️ Limpar</button>
+            </div>
+            
+            <div class="traducao-container">
+                <h2 class="titulo-traducao">📝 Tradução</h2>
+                <p class="traducao">Texto Traduzido</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
