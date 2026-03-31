@@ -1,0 +1,89 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* ===== BODY ===== */
+  body {
+    background-image: url(foto-baixada); /* baixar uma foto para fundo */
+    background-size: cover; /* preenche todo espaço */
+    background-position: center; /* centraliza imagem */
+    height: 100vh; /* altura tela */
+  
+    /* deixa caixa no centro */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* ===== CAIXA DO APP ===== */
+  .caixaApp {
+    background-color: rgb(47, 1, 85); /* modificar */
+    width: 450px; /* modificar */
+    padding: 35px; /* modificar */
+    border-radius: 25px;
+  }
+  
+  /* ===== TEXTO SUPERIOR (INPUT) ===== */
+  .texto {
+    width: 100%;
+    height: 100px;
+    border: none;
+    outline: none; /* borda quando clica */
+    background-color: #ffffff; /* modificar */
+    color: rgb(14, 81, 226); /* cor do texto - modificar */
+    padding: 15px; /* modificar - espaço interno */
+  }
+  
+  /* ===== TEXTO INFERIOR (TRADUÇÃO) ===== */
+  .tradução {
+    padding: 15px;
+    background-color: #ffffff;
+  }
+  
+  .traducao {
+    font-size: 18px; /* modificar */
+    color: #ffffff99;
+    /* modificar */
+  }
+  
+  .titulo-traducao {
+    color: #3b363699;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+  }
+
+  .caixa-interna {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+  }
+
+  .idioma {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background-color: #ffffff;
+    color: red;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+  }
+
+   button {
+    border: none;
+padding: 10px;
+border-radius:50%;
+background: color #fff1af;
+cursor:pointer;
+color: #000010;
+   }
+
+button:hover{
+  opacity:0.9;
+}
+   
