@@ -26,8 +26,8 @@ async function traduzirTexto(texto, idiomaDestino) {
         }
 
         // Atualiza o título da tradução
-        tituloTraducao.textContent = `🔄 Traduzindo para ${idiomaDestino}...`;
-        traducaoParagrafo.textContent = '⏳ Aguarde...';
+        tituloTraducao.textContent = ` Traduzindo para ${idiomaDestino}...`;
+        traducaoParagrafo.textContent = ' Aguarde...';
         
         // Obtém o código do idioma de destino
         const idiomaCode = idiomasMap[idiomaDestino];
@@ -189,8 +189,8 @@ selectIdioma.addEventListener('change', () => {
 });
 
 // Mensagem inicial
-traducaoParagrafo.textContent = '🎤 Fale ou ✏️ digite algo e clique em Traduzir';
-tituloTraducao.textContent = '✨ Tradutor';
+traducaoParagrafo.textContent = ' Fale ou digite algo e clique em Traduzir';
+tituloTraducao.textContent = ' Tradutor';
 
 // Teste de conexão com a API ao carregar
 console.log('Tradutor carregado! Idiomas disponíveis:', Object.keys(idiomasMap));
